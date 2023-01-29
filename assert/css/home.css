@@ -1,0 +1,70 @@
+
+
+/*1. navigation-css */
+.navbar {
+    /* position: sticky; */
+    background-color: var(--main-color);
+    padding: 16px 0px;
+}
+
+.navbar-logo {
+    width: 146px;
+    height: 36px;
+}
+
+.nav-link {
+    color: white;
+    font-weight: bold;
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+.nav-link:hover, .nav-link:focus {
+    color: var(--background-color);
+}
+
+.navbar-toggler  {
+    border: 2px solid black;
+}
+
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: 0 0 0 white;
+}
+
+/* 2. Slider css */
+.slider-large {
+    padding: 0px;
+}
+
+.carousel-caption {
+    margin-bottom: 203px;
+    margin-right: 654px ;
+}
+
+
+.products {
+    margin-top: 36px;
+    background-color: var(--background-color);
+}
+
+
+/* footer css */
+.footer {
+    margin: 56px 0 24px 0;
+    text-align: center;
+    background-color: var(--primary-color);
+    color: var(--background-color);
+    padding: 36px 24px 36px 24px;
+}
+
+.footer-icon {
+    font-size: 26px;
+    margin-bottom: 6px;
+}
+
+.footer-heading {
+    font-size: 24px;
+    font-weight: 1000;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assert/css/FormApplication.css"/>
+    <link rel="stylesheet" href="assert/css/base.css">
+    <title>Form Application</title>
+</head>
+<body>
+    <div class="container">
+        <form class="form-container" action="formapplication" method="post" onsubmit="return FormValidate();">
+
+            <img class="header-logo" src="assert/img/Design/Icon_applicationForm.png">
+            <h2 class="form-heading">Application Form</h2>
+
+            <div class="form-control">   
+                <label for="name">Full name <span style="color: red;" id="errorName"></span></label>
+                <input type="text" name="name" placeholder="Le Van A" class="form-control" id="name" />
+            </div>
+
+            <div class="form-control">
+                <label for="phone">Phone number <span style="color: red;" id="errorPhone"></span></label>
+                <input type="text" name="phone" placeholder="0123456789" class="form-control" id="phone" />
+            </div>
+
+            <div class="form-control">
+                <label for="email">Email <span style="color: red;" id="errorEmail"></span></label>
+                <input type="text" name="email" placeholder="levana@gmail.com" class="form-control" id="email" />
+            </div>
+
+            <div class="form-control">
+                <label for="address" >Address <span style="color: red;" id="errorAddress"></span></label>
+                <input type="text" name="address" placeholder="An Binh, Ninh Kieu, Can Tho" class="form-control" id="address" />
+            </div>
+
+            <div class="form-control">
+                <label for="position">On-position <span style="color: red;" id="errorPosition"></span></label>
+                <input type="text" name="position" placeholder="chef" class="form-control" id="position" />
+            </div>
+
+            <div class="form-control">
+                <label for="note">Note <span style="color: red;" id="errorNote"></span></label>
+                <input type="text" name="note" placeholder="none" class="form-control" id="note" />
+            </div>
+           
+            <button type="submit" class="form-submit btn-primary">Submit</button>
+        </form>
+    </div>
+	<script language="javascript" src="jquery/FormApplication.js"></script>
+</body>
+</html>

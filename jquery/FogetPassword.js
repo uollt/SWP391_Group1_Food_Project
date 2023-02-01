@@ -27,4 +27,5 @@ function checkPassword() {
       alert("Successful!");
     }
     return false;
+    
   }

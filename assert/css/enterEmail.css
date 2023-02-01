@@ -1,4 +1,4 @@
-.body-voucher {
+.body-email {
     background: var(--main-btn-hover-color);
     padding: 70px;
 }
@@ -11,6 +11,3 @@
     background-color: white;
     padding: 20px;
 }
-
-
-
